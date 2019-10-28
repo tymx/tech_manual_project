@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Proza+Libre:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #9cc5c7;
+}
+
+.form_container {
+  background-color: white;
+  padding: 2.3rem;
+  border-radius: 0.7rem;
+  border: 0.3rem solid #01856e;
+  font-family: 'Open Sans';
+  width: 45vw;
+}
+
+.form_container h1 {
+  text-align: center;
+  color: #01856e;
+  font-family: 'Proza Libre' !important;
+  padding-bottom: 1.2rem;
+}
+
+.alert h1 {
+  color: red;
+}
+
+.form_container .input_group {
+  padding-bottom: 1.2rem;
+}
+
+#info {
+  width: 65vw;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#submit {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.error_active {
+  background-color: red;
+  color: white;
+}
