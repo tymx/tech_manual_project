@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Functional Contact Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="form_container">
+    <h1>Account Form</h1>
+    <form id="form" action="info.php" method="POST">
+      <div id="error_fname"></div>
+      <div class="input_group">
+        <label for="">First Name:</label>
+        <input type="text" name="first_name" id="first_name" />
+      </div>
+      <div id="error_lname"></div>
+      <div class="input_group">
+        <label for="">Last Name:</label>
+        <input type="text" name="last_name" id="last_name" />
+      </div>
+      <div id="error_email"></div>
+      <div id="error_email_a"></div>
+      <div class="input_group">
+        <label for="">Email Address:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div id="error_birthday"></div>
+      <div class="input_group">
+        <label for="">Birthday:</label>
+        <input type="date" name="birthday" id="birthday" />
+      </div>
+      <div id="error_pw"></div>
+      <div id="error_pw_length"></div>
+      <div id="error_pw_lc"></div>
+      <div id="error_pw_uc"></div>
+      <div id="error_pw_d"></div>
+      <div class="input_group">
+        <label for="">Password:</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <button type="submit" name="submit" id="submit">Create Account</button>
+    </form>
+  </div>
+</body>
+
+</html>
